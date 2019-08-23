@@ -15,15 +15,8 @@ if($count==0){
 
     <title>Menu</title>
 
-    <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap2.min.css" rel="stylesheet">
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <link href="../../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
-    <!-- Custom styles for this template -->
-    <link href="jumbotron-narrow.css" rel="stylesheet">
-    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
-    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
-    <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/bootstrap2.min.css">
     
   </head>
   <body>
@@ -48,6 +41,11 @@ if($count==0){
 			width:600px;
 			height:314px
 		}
+		
+		@media all and (max-width: 1000px) {
+		#image02 {display: none;}
+		}
+		
 	</style>
 	
 	<!--Body-->
@@ -76,9 +74,10 @@ if($count==0){
 		<!--Importing the image-->
 
 	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-		<img src="res/images/image02.jpg" style="width:50%"></img>
+		<img id="image02" src="res/images/image02.jpg" style="width:50%"></img>
 		<br><br>
       </div>
+	
 
 	<!--Footer-->
       <footer class="footer">
@@ -88,6 +87,9 @@ if($count==0){
 	  ?>
       </footer>
     </div>
+	<script src="js/jquery.min.js"></script>
+	
+	<script src="js/bootstrap.min.js"></script>
   </body>
 </html>
 

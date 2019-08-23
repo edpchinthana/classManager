@@ -14,14 +14,8 @@
 
     <title>Login</title>
 
-    <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap2.min.css" rel="stylesheet">
-
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <link href="css/ie10-viewport-bug-workaround.css" rel="stylesheet">
-
-    <!-- Custom styles for this template -->
-    <link href="jumbotron-narrow.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/bootstrap2.min.css">
 
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
@@ -127,5 +121,8 @@
         <p>&copy; 2019 Project02.</p>
       </footer>
     </div> 
+	<script src="js/jquery.min.js"></script>
+	
+	<script src="js/bootstrap.min.js"></script>
   </body>
 </html>
