@@ -12,7 +12,7 @@ if($count==0){
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
+	<meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Menu</title>
 
     <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -33,16 +33,7 @@ if($count==0){
       </div>
 	  
 	<style type="text/css">
-		.wrapperImage
-		{
-			position : fixed;
-			top:90px;
-			left:500px;
-			width:600px;
-			height:314px
-		}
-		
-		@media all and (max-width: 1000px) {
+		@media all and (max-width: 1200px) {
 		#image02 {display: none;}
 		}
 		
@@ -75,13 +66,13 @@ if($count==0){
 
 	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 		<img id="image02" src="res/images/image02.jpg" style="width:50%"></img>
-		<br><br>
+		<br><br><br><br>
       </div>
 	
 
 	<!--Footer-->
       <footer class="footer">
-        <p>&copy; 2019 Project01.</p>
+        <p>&copy; 2019 Project02.</p>
 		<?php
 	  echo $count;
 	  ?>
